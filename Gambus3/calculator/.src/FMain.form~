@@ -1,0 +1,92 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,119,77)
+  { Button1 Button
+    MoveScaled(30,46,6.25,4)
+    Text = ("1")
+  }
+  { Button2 Button
+    MoveScaled(37,46,6.25,4)
+    Text = ("2")
+  }
+  { Button3 Button
+    MoveScaled(44,46,6.25,4)
+    Text = ("3")
+  }
+  { Button4 Button
+    MoveScaled(37,41,6.25,4)
+    Text = ("5")
+  }
+  { Button5 Button
+    MoveScaled(44,36,6,4)
+    Text = ("9")
+  }
+  { Button6 Button
+    MoveScaled(44,41,6.25,4)
+    Text = ("6")
+  }
+  { Button7 Button
+    MoveScaled(30,36,6.25,4)
+    Text = ("7")
+  }
+  { Button8 Button
+    MoveScaled(30,51,6.25,4)
+    Text = ("0")
+  }
+  { Button9 Button
+    MoveScaled(44,51,6.25,4)
+    Text = ("=")
+  }
+  { Button10 Button
+    MoveScaled(37,36,6.25,4)
+    Text = ("8")
+  }
+  { Button11 Button
+    MoveScaled(44,56,13.25,4)
+    Text = ("close")
+  }
+  { Button12 Button
+    MoveScaled(51,36,6.25,4)
+    Text = ("/")
+  }
+  { Button13 Button
+    MoveScaled(51,51,6,4)
+    Text = ("+")
+  }
+  { Button14 Button
+    MoveScaled(51,41,6,4)
+    Text = ("*")
+  }
+  { Button15 Button
+    MoveScaled(37,51,6.25,4)
+    Text = (".")
+  }
+  { Button17 Button
+    MoveScaled(51,46,6.25,4)
+    Text = ("-")
+  }
+  { Button18 Button
+    MoveScaled(30,41,6.25,4)
+    Text = ("4")
+  }
+  { MovieBox1 MovieBox
+    MoveScaled(62,16,16,16)
+  }
+  { Button16 Button
+    MoveScaled(30,56,13,4)
+    Text = ("clear")
+  }
+  { TextBox1 TextBox
+    MoveScaled(30,30,27,5)
+  }
+  { Label1 Label
+    MoveScaled(30,24,27,5)
+    Font = Font["30"]
+    Background = Color.TextBackground
+    Foreground = Color.TextForeground
+    Text = ("calculator")
+    Alignment = Align.Center
+    Border = Border.Plain
+  }
+}

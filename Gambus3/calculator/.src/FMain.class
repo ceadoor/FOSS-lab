@@ -1,0 +1,148 @@
+' Gambas class file
+
+' 
+Private var1 As Single
+Private var2 As Single
+Private var3 As Single
+
+Public Sub _new()
+
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub Button1_Click()
+
+  TextBox1.Text = TextBox1.Text & "1"
+
+End
+
+Public Sub Button4_Click()
+
+  TextBox1.Text = TextBox1.Text & "5"
+
+End
+
+Public Sub Button6_Click()
+
+  TextBox1.Text = TextBox1.Text & "6" 
+End
+
+Public Sub Button10_Click()
+
+  TextBox1.Text = TextBox1.Text & "8"
+
+End
+
+Public Sub Button12_Click()
+
+  var3 = 4               
+  var1 = Val(TextBox1.Text)
+  TextBox1.Text = " "     
+
+End
+
+Public Sub Button9_Click()
+
+  var2 = Val(TextBox1.Text)   
+  If var3 = 1
+    TextBox1.Text = var1 + var2
+  Endif
+  If var3 = 2
+    TextBox1.Text = var1 - var2
+  Endif
+  If var3 = 3
+    TextBox1.Text = var1 * var2
+  Endif
+  If var3 = 4
+    TextBox1.Text = var1 / var2
+  Endif
+  
+End
+
+Public Sub Button11_Click()
+
+  Quit
+
+End
+
+Public Sub TextBox1_KeyPress()
+
+  
+
+End
+
+Public Sub Button7_Click()
+
+  TextBox1.Text = TextBox1.Text & "7"
+
+End
+
+Public Sub Button5_Click()
+
+  TextBox1.Text = TextBox1.Text & "9"
+
+End
+
+Public Sub Button8_Click()
+
+  TextBox1.Text = TextBox1.Text & "0"
+
+End
+
+Public Sub Button18_Click()
+
+  TextBox1.Text = TextBox1.Text & "4"
+
+End
+
+Public Sub Button13_Click()
+
+  var3 = 1
+  var1 = Val(TextBox1.Text) 
+  TextBox1.Text = "" 
+
+
+End
+
+Public Sub Button17_Click()
+
+   var3 = 2                   
+   var1 = Val(TextBox1.Text)   
+   TextBox1.Text = " "  
+   
+End
+
+Public Sub Button14_Click()
+
+    var3 = 3          
+    var1 = Val(TextBox1.Text)
+    TextBox1.Text = " "    
+    
+End
+
+Public Sub Button2_Click()
+
+  TextBox1.Text = TextBox1.Text & "2"
+
+End
+
+Public Sub Button3_Click()
+
+  TextBox1.Text = TextBox1.Text & "3"
+
+End
+
+Public Sub Button16_Click()
+
+  TextBox1.Clear
+
+End
+
+Public Sub Button15_Click()
+
+  TextBox1.Text = TextBox1.Text & "."
+
+End

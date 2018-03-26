@@ -1,0 +1,7 @@
+# Gambas Project File 3.0
+Title=basic calculator
+Startup=FMain
+Component=gb.image
+Component=gb.gui
+Component=gb.form
+
