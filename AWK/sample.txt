@@ -1,0 +1,5 @@
+empID	empName	company	salary
+001	Aiwin	Google	2000
+002	Akin	Intel	1000
+003	Mark	Tesla	3000
+004	Anita	Yahoo	1500
