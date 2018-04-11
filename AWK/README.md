@@ -19,3 +19,6 @@ $ awk -f cmd4.awk sample.txt
 - Printing specific list columns -> cmd2.awk
 - Printing the total salary -> cmd3.awk
 - Printing the Average salary -> cmd4.awk
+
+
+![Output](.assets/output.jpeg?raw=true "Output")
