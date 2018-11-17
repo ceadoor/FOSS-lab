@@ -7,7 +7,7 @@ BTech CSE S4 FOSS Lab
 
 Includes
 
-+ AWK Scripts
-+ Gambas3 Project
+  - [AWK Scripts](AWK/README.md)
+  - [Gambas3 Project](Gambus3/README.md)
 
 Feel free to Fork/Star but please do not give a PR to this repo.
